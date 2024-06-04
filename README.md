@@ -13,7 +13,7 @@ NG est une plateforme web interactive et centralisée visant à moderniser le sy
 
 - **HTML** : Outils de développement web de base.
 - **Tailwind CSS** : Framework CSS pour une application web réactive et cohérente.
-- - **React** :  Librairie JavaScript pour construire des interfaces utilisateur dynamiques et réactives. 
+- **React** :  Librairie JavaScript pour construire des interfaces utilisateur dynamiques et réactives. 
 
 
 ### Back-End
@@ -24,6 +24,10 @@ NG est une plateforme web interactive et centralisée visant à moderniser le sy
 - **Spring Mail** : Simplifie la configuration des serveurs de messagerie.
 - **Kafka** : Gère le flux massif de données et les mises à jour en temps réel.
 - **Hazelcast** : Améliore les performances de l'application en stockant les données fréquemment consultées en mémoire.
+
+### Data Base
+
+- **PostgreSQL** : Stocke des données sur les étudiants, les enseignants, les cours et les notes.
 
 ### Contrôle de Version
 
