@@ -13,7 +13,8 @@ NG est une plateforme web interactive et centralisée visant à moderniser le sy
 
 - **HTML** : Outils de développement web de base.
 - **Tailwind CSS** : Framework CSS pour une application web réactive et cohérente.
-- **Angular** : Framework complet offrant une liaison de données bidirectionnelle, une injection de dépendances, et des capacités de routage intégrées.
+- - **React** :  Librairie JavaScript pour construire des interfaces utilisateur dynamiques et réactives. 
+
 
 ### Back-End
 
