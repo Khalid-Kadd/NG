@@ -1,0 +1,22 @@
+on: push
+jobs:
+  testing_workflow:
+    runs on: windows-latest
+    steps:
+      - name: checking out
+      uses: actions/checkout@v3
+      - name: installing dependencies
+      working-directory: .
+      run: npm i
+      - name: building application
+      working-directory: .
+      run: NODE_ENV=production npm run build
+      - name: deploying to firebase hosting
+      uses: FirebaseExtended/action-hosting-deploy@v0
+      with:
+        entrypoint: .
+        repoTokens: '${{secrets.GITHUB_TOKEN}}'
+        firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CICD }}'
+        projectId: cicd-5f766
+        target: production
+        channelId: live
