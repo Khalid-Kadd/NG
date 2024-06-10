@@ -10,7 +10,9 @@ jobs:
         run: npm install
       
       - name: Building the application
-        run: NODE_ENV=production npm run build
+        run: |
+          $env:NODE_ENV="production"
+          npm run build
       
       - name: Deploying to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
